@@ -1,0 +1,1 @@
+export const NDB_API_URL = `https://api.nal.usda.gov/ndb/search`

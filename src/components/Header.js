@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = (props) => {
   return (
-    <header className="App-header">
-      <h2>{props.text}</h2>
-    </header>
+    <Navbar bg="light">
+      <Navbar.Brand href="#home">{props.text}</Navbar.Brand>
+    </Navbar>
   );
 };
 
