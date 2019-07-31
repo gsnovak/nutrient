@@ -7,5 +7,3 @@ Deployed to Heroku via https://nm-search.herokuapp.com/
 - Heroku
 - Axios 
 - Bootstrap for responsive, mobile friendly, UI
-
-I made the decision not to use redux due to size of the project and the limited state management needed between components.
